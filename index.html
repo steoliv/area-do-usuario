@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -42,7 +43,7 @@
               <!-- The user image in the navbar-->
               <img src="dist/img/avatar5.png" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Fulano Junior</span>
+              <span class="hidden-xs">Heitor Junior</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -50,7 +51,7 @@
                 <img src="dist/img/avatar5.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Fulano Junior - Web Developer
+                  Heitor Junior - Web Developer
                   <small>Membro desde Abr. 2018</small>
                 </p>
               </li>
@@ -96,7 +97,7 @@
           <img src="dist/img/avatar5.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Fulano Junior</p>
+          <p>Heitor Junior</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -154,8 +155,8 @@
 
                   <tr>
                     <td><img src="dist/img/user1-128x128.jpg" alt="User Image" class="img-circle img-sm"></td>
-                    <td>Fulano</td>
-                    <td>fulano@DESENVOLVEDORAWEB.com.br</td>
+                    <td>Heitor</td>
+                    <td>Heitor@DESENVOLVEDORAWEB.com.br</td>
                     <td>Sim</td>
                     <td>02/04/2018</td>
                     <td>
@@ -168,8 +169,8 @@
                     <td>
                       <img src="dist/img/user1-128x128.jpg" alt="User Image" class="img-circle img-sm">
                     </td>
-                    <td>Fulano</td>
-                    <td>fulano@desenvolvedoraweb.com.br</td>
+                    <td>Heitor</td>
+                    <td>Heitor@desenvolvedoraweb.com.br</td>
                     <td>Sim</td>
                     <td>02/04/2018</td>
                     <td>
@@ -182,8 +183,8 @@
                     <td>
                       <img src="dist/img/user1-128x128.jpg" alt="User Image" class="img-circle img-sm">
                     </td>
-                    <td>Fulano</td>
-                    <td>fulano@desenvolvedoraweb.com.br</td>
+                    <td>Heitor</td>
+                    <td>Heitor@desenvolvedoraweb.com.br</td>
                     <td>Sim</td>
                     <td>02/04/2018</td>
                     <td>
@@ -250,7 +251,7 @@
                   <label>Gênero</label>
                   <div class="radio">
                     <label for="exampleInputGenderM">
-                      <input type="radio" id="exampleInputGenderM" name="gender">
+                      <input type="radio" id="exampleInputGenderM" name="gender" checked>
                       Masculino</label>
                   </div>
                   <div class="radio">
@@ -511,12 +512,12 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">E-mail</label>
+                  <label for="exampleInputEmail">E-mail</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o e-mail" name="email">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Crie uma senha" name="password">
+                  <input type="password" class="form-control" id="exampleInputPassword" placeholder="Crie uma senha" name="password">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputFile">Foto</label>
@@ -524,7 +525,7 @@
                 </div>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" name="admin"> Administrador
+                    <input type="checkbox" name="admin" id="admin"> Administrador
                   </label>
                 </div>
               </div>
@@ -554,6 +555,8 @@
   </footer>
 
 </div>
+
+<script src="index.js"> </script>
 
 </body>
 </html>
