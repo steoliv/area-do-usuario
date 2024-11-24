@@ -6,22 +6,19 @@ var user ={}; //json
 //Função para adicionar linha na tabela
 function addLine(dataUser){
     
-    var tr = document.createElement("tr");
-
-    tr.innerHTML = `<tr>
-            <td><img src="dist/img/user1-128x128.jpg" alt="User Image" class="img-circle img-sm"></td>
-            <td>${dataUser.name}</td>
-            <td>${dataUser.email}</td>
-            <td>${dataUser.admin}</td>
-            <td>${dataUser.brith}</td>
-            <td>
-            <button type="button" class="btn btn-primary btn-xs btn-flat">Editar</button>
-            <button type="button" class="btn btn-danger btn-xs btn-flat">Excluir</button>
-            </td>
-        </tr>
-    `;
-
-    document.getElementById("table-user").appendChild(tr);
+    document.getElementById("table-user").innerHTML = 
+        `<tr>
+                <td><img src="dist/img/user1-128x128.jpg" alt="User Image" class="img-circle img-sm"></td>
+                <td>${dataUser.name}</td>
+                <td>${dataUser.email}</td>
+                <td>${dataUser.admin}</td>
+                <td>${dataUser.brith}</td>
+                <td>
+                <button type="button" class="btn btn-primary btn-xs btn-flat">Editar</button>
+                <button type="button" class="btn btn-danger btn-xs btn-flat">Excluir</button>
+                </td>
+            </tr>
+        `;
 
     
 
